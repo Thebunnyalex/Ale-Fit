@@ -298,3 +298,23 @@ body{
     background-color: #EEEEEE;
     color: black;
 }
+
+
+/*seccion 6*/
+ .nav__pagraph{
+     padding: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     width: 100%;
+     margin-top: 10px;
+ }
+ .nav__pagraph p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 35;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-variant-caps: all-small-caps;
+    color: #eeeeee7e;
+}
