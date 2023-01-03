@@ -164,3 +164,137 @@ body{
     text-align: center;
     width: 80%;
 }
+
+/*Seccion 2*/
+
+.imgSec2{
+    width: 100%;
+    z-index: -1;
+}
+
+.btnSec2{
+    position: absolute;
+    background-color: black;
+    color: #EEEEEE;
+    border-radius: 15px;
+    padding: 15px 45px;
+    border: none;
+    top: 2150px;
+    left: 175px;
+}
+
+.btnSec2:hover{
+    background-color: #EEEEEE;
+    color: black;
+}
+
+/*Secccion 3*/
+
+.Seccion3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.hojaInfoS3{
+    background-color: #EEEEEE;
+    padding: 30px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+    margin-top: 30px;
+}
+
+.hojaInfoS3 h2{
+    font-weight: 900;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.hojaInfoS3 h3{
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+}
+
+.hojaInfoS3 p{
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
+
+.hojaInfoS3 button{
+    background-color: var(--color-title);
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 45px;
+    margin-top: 30px;
+}
+.hojaInfoS3 button:hover{
+    background-color: black;
+    color: #EEEEEE;
+}
+/*Secccion 4*/
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin-top: 30px;
+    margin: 25px 2.5%;
+    border-radius: 25px;
+    background-color: #EEEEEE;
+}
+/*Seccion 5*/
+
+.seccion5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0px;
+}
+
+.seccion5 h2{
+    color: var(--color-title);
+    font-weight: 300;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.buscador{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buscador input{
+    border: none;
+    color: black;
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+    padding: 15px 45px;
+    margin-top: 30px;
+    width: 650px;
+}
+.buscador button{
+    background-color: var(--color-title);
+    color: black;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px 45px;
+    margin-top: 30px;
+}
+
+.buscador button:hover{
+    background-color: #EEEEEE;
+    color: black;
+}
